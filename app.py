@@ -40,7 +40,7 @@ PAGE = """<!doctype html><html lang=en><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1"><title>Ask @{{o}}</title>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel=stylesheet>
 <style>{{css|safe}}</style></head><body><main>
-<div class=card><div class=head><div class=av>{{o[0]|upper}}</div><div><b>@{{o}}</b><span>ask me a question!</span></div></div>
+<div class=card><div class=head><div class=av>{{o[0]|upper}}</div><div><b>@{{o}}</b><span>send me anonymous messages!</span></div></div>
 <div class=box><input id=n maxlength=40 placeholder="your name" autocomplete=name required>
 <textarea id=q maxlength=500 placeholder="are u single?" required></textarea>
 <button class=dice type=button id=d aria-label="Random question">🎲</button></div></div>
