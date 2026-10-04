@@ -55,7 +55,7 @@ PAGE = """<!doctype html><html lang=en><head><meta charset=utf-8>
 <div class=card><div class=head><div class=av>{{o[0]|upper}}</div><div><b>@{{o}}</b><span>send me anonymous messages!</span></div></div>
 <div class=box><textarea id=q maxlength=500 placeholder="are u single?"></textarea>
 <button class=dice type=button id=d aria-label="Random question">🎲</button></div></div>
-<p class=note>🔓 asking as <b id=who></b> · <a id=chg>change</a></p>
+<p class=note>🔒 anonymous q&a by <b id=who></b> · <a id=chg>change</a></p>
 <button class=btn id=s>Send!</button><div class=msg id=m role=status></div>
 </main><script>
 const ideas=["are u single?","what's your biggest dream?","what's the last song you played?","coffee or tea?","what are you into lately?","best advice you've got?"];
