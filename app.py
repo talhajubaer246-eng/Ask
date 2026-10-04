@@ -23,11 +23,11 @@ main{width:100%;max-width:440px;padding:56px 18px 32px}
 .head{display:flex;gap:16px;align-items:center;padding:22px 24px}
 .av{width:60px;height:60px;border-radius:50%;background:#7b5cd6;color:#fff;display:grid;place-items:center;font-size:28px;font-weight:800;flex:none}
 .head b{font-size:22px;display:block}.head span{font-size:20px;font-weight:700}
-.box{position:relative;background:rgba(255,255,255,.28);padding:6px 24px 24px}
-input,textarea{width:100%;background:transparent;border:0;outline:0;color:#fff;font:inherit;font-size:22px;font-weight:700}
-input{border-bottom:2px solid rgba(255,255,255,.5);padding:14px 0;margin-top:8px}
+.box{position:relative;background:linear-gradient(135deg,rgba(214,49,127,.45),rgba(242,154,60,.45));padding:6px 24px 24px}
+input,textarea{width:100%;background:transparent;border:0;outline:0;color:#3b0a26;font:inherit;font-size:22px;font-weight:700}
+input{border-bottom:2px solid rgba(59,10,38,.35);padding:14px 0;margin-top:8px}
 textarea{height:130px;resize:none;padding-top:14px}
-::placeholder{color:rgba(120,40,80,.55)}
+::placeholder{color:rgba(59,10,38,.5)}
 .dice{position:absolute;right:16px;bottom:14px;width:52px;height:52px;border-radius:50%;border:0;background:rgba(255,255,255,.35);font-size:26px;cursor:pointer}
 .note{text-align:center;font-weight:700;font-size:19px;margin:22px 0 16px}
 .btn{display:block;width:100%;background:#000;color:#fff;border:0;border-radius:99px;padding:22px;font:inherit;font-size:26px;font-weight:800;text-align:center;text-decoration:none;cursor:pointer;box-shadow:0 10px 24px rgba(0,0,0,.18)}
